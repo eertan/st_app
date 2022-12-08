@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "st-app"
+version = "0.1.0"
+description = ""
+authors = ["eertan <erolertan4@gmail.com>"]
+readme = "README.md"
+# packages = [{include = "st_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
